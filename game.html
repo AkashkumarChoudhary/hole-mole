@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>MOLE_GAME</title>
+</head>
+<body>
+     <h1> Catch Me , If you can <span class="score">  0  </span></h1>
+     <div class="levels">
+     <div> 
+        <input type="radio" name="level" id="easy" checked >
+        <label for="easy"> EASY</label>
+     </div>
+      <div>
+        <input type="radio" name="level" id="medium"  >
+        <label for="medium"> MEDIUM</label>
+         
+      </div>
+      <div>
+        <input type="radio" name="level" id="hard"  >
+        <label for="hard"> HARD</label>
+         
+      </div>
+    </div>
+    <div class = "controls">
+        <button class = "start-btn" onclick = "startGame() " >Start !</button>
+    </div>
+
+    <div class = "game">
+        <div class = "hole hole1">
+            <div class="mole"></div>
+        </div>
+        <div class = "hole hole2">
+            <div class="mole"></div>
+        </div>
+        <div class = "hole hole3">
+            <div class="mole"></div>
+        </div>
+        <div class = "hole hole4">
+            <div class="mole"></div>
+        </div>
+        <div class = "hole hole5">
+            <div class="mole"></div>
+        </div>
+        <div class = "hole hole6">
+            <div class="mole"></div>
+        </div>
+    </div>
+
+    <script src = "game.js"></script>
+</body>
+</html>
